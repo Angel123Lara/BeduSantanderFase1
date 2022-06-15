@@ -1,8 +1,13 @@
 h1 {
     color: #025157;
   }
-
+p {
+    color: #8b8b8bcc;
+    font-family: Verdana;
+    font-size: 20px;
+}
 body{
+    color: #fff;
     background-color: #fffbf7;
 
 }
@@ -10,14 +15,17 @@ button{
     background-color: #025157;
 }
 .header {
-    margin-top: 40px;
-    margin-left: 20px;
-    margin-right: 20px;
+    margin-top: 40px 20px 0;
+
     font-size: 0;
 
   }
 li{
     display: inline;
+    margin-left: 25px;
+    margin-right: 25px;
+    color:#025157;
+   
 }
 .header > * {
     display: inline-block;
@@ -25,14 +33,19 @@ li{
     line-height: 45px;
     height: 100%;
 }
-
+.logo{
+    width: 15%;
+}
 .logo > img{
     width: 15%;
 }
 
 .navbar{
+    font: sans-serif;
+    height: 45px;
     width: 70%;
-    text-align: center;
+    text-align: left;
+    
     color: #025157;
     font-weight: 500;
 }
@@ -42,4 +55,23 @@ li{
     text-align: right;
     font-size: 14px;
     font-weight: 600;
+
+}
+.actions>*{
+    margin: 0 10px;
+}
+.main{
+    margin-top: 140px;
+    text-align: center;
+}
+.signin{
+    color: #67b54b;
+
+}
+.buttonStart{
+    color: white;
+    padding: 12px 14px 12px;
+    background-color: #67b54b;
+    border:0;
+    border-radius: 5px;
 }
