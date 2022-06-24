@@ -42,15 +42,20 @@ li {
   height: 100%;
 }
 
-
+.navbar-brand{
+  width: 20%;
+}
 
 /*.logo>img {
   width: 15%;
 }*/
+.navbar-brand > img{
+  width: 250%;
+}
 
 .navbar {
   font: sans-serif;
-  
+  width: 15%;
   text-align: left;
 
   color: #025157;
@@ -255,7 +260,6 @@ h1 {
   margin-top: 130px;
   height: 100%;
 }
-
 
 }
 
